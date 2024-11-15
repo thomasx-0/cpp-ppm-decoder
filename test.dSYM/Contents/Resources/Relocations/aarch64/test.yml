@@ -1,5 +1,5 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/thomaspennant/Desktop/php-test/test'
+binary-path:     '/Users/thomaspennant/Desktop/cpp-test/test'
 relocations:     []
 ...

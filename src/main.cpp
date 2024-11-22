@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/img.hpp"
+#include "../include/img.h"
 
 int main() {
     std::cout << "Hello CMake" << std::endl;

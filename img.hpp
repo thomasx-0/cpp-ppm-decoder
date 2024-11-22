@@ -26,17 +26,3 @@ void savePPM(const std::string &filename, const std::vector<std::vector<int>> &a
 
     ofs.close();
 }
-
-int main() {
-    std::vector<std::vector<int>> array = {
-        {0xFF0000, 0x00FF00, 0x0000FF},
-        {0xFFFF00, 0xFF00FF, 0x00FFFF},
-        {0xFFFFFF, 0x000000, 0x888888}
-    };
-
-    savePPM("output.ppm", array);
-
-    std::cout << "Image saved as output.ppm" << std::endl;
-
-    return 0;
-}

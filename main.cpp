@@ -2,7 +2,8 @@
 #include <fstream>
 #include <vector>
 #include <string>
-#include "./include/PPM.h"
+
+#include "include/PPM.h"
 
 void savePPM(const std::string &filename, const std::vector<std::vector<int>> &array) {
     std::ofstream ofs(filename, std::ios::out);
@@ -35,6 +36,5 @@ int main() {
         std::cerr << e.what() << std::endl;
         return 1;
     }
-
     return 0;
 }

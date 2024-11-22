@@ -72,28 +72,28 @@ include CMakeFiles/CppTest.dir/flags.make
 CMakeFiles/CppTest.dir/codegen:
 .PHONY : CMakeFiles/CppTest.dir/codegen
 
-CMakeFiles/CppTest.dir/src/main.cpp.o: CMakeFiles/CppTest.dir/flags.make
-CMakeFiles/CppTest.dir/src/main.cpp.o: /Users/thomaspennant/Desktop/cpp-test/src/main.cpp
-CMakeFiles/CppTest.dir/src/main.cpp.o: CMakeFiles/CppTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/thomaspennant/Desktop/cpp-test/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppTest.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppTest.dir/src/main.cpp.o -MF CMakeFiles/CppTest.dir/src/main.cpp.o.d -o CMakeFiles/CppTest.dir/src/main.cpp.o -c /Users/thomaspennant/Desktop/cpp-test/src/main.cpp
+CMakeFiles/CppTest.dir/main.cpp.o: CMakeFiles/CppTest.dir/flags.make
+CMakeFiles/CppTest.dir/main.cpp.o: /Users/thomaspennant/Desktop/cpp-test/main.cpp
+CMakeFiles/CppTest.dir/main.cpp.o: CMakeFiles/CppTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/thomaspennant/Desktop/cpp-test/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppTest.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppTest.dir/main.cpp.o -MF CMakeFiles/CppTest.dir/main.cpp.o.d -o CMakeFiles/CppTest.dir/main.cpp.o -c /Users/thomaspennant/Desktop/cpp-test/main.cpp
 
-CMakeFiles/CppTest.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppTest.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thomaspennant/Desktop/cpp-test/src/main.cpp > CMakeFiles/CppTest.dir/src/main.cpp.i
+CMakeFiles/CppTest.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppTest.dir/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thomaspennant/Desktop/cpp-test/main.cpp > CMakeFiles/CppTest.dir/main.cpp.i
 
-CMakeFiles/CppTest.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppTest.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thomaspennant/Desktop/cpp-test/src/main.cpp -o CMakeFiles/CppTest.dir/src/main.cpp.s
+CMakeFiles/CppTest.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppTest.dir/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thomaspennant/Desktop/cpp-test/main.cpp -o CMakeFiles/CppTest.dir/main.cpp.s
 
 # Object files for target CppTest
 CppTest_OBJECTS = \
-"CMakeFiles/CppTest.dir/src/main.cpp.o"
+"CMakeFiles/CppTest.dir/main.cpp.o"
 
 # External object files for target CppTest
 CppTest_EXTERNAL_OBJECTS =
 
-CppTest: CMakeFiles/CppTest.dir/src/main.cpp.o
+CppTest: CMakeFiles/CppTest.dir/main.cpp.o
 CppTest: CMakeFiles/CppTest.dir/build.make
 CppTest: CMakeFiles/CppTest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/thomaspennant/Desktop/cpp-test/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CppTest"

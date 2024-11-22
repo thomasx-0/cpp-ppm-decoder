@@ -1,5 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     '/Users/thomaspennant/Desktop/cpp-test/test'
-relocations:     []
-...

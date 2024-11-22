@@ -5,7 +5,7 @@
 void savePPM(const std::string &filename, const std::vector<std::vector<int>> &array) {
     std::ofstream ofs(filename, std::ios::out | std::ios::binary);
     if (!ofs) {
-        std::cerr << "Could not open the file for writing!" << std::endl;
+        std::cerr << "Could not open the file for writing!";
         return;
     }
 

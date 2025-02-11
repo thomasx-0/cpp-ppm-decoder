@@ -4,6 +4,7 @@
 #include <string>
 
 #include "include/PPM.h"
+#include <fmt/core.h>
 
 void savePPM(const std::string &filename, const std::vector<std::vector<int>> &array) {
     std::ofstream ofs(filename, std::ios::out);
@@ -28,7 +29,7 @@ void savePPM(const std::string &filename, const std::vector<std::vector<int>> &a
 }
 
 int main() {
-    std::cout << "Hello CMake" << std::endl;
+    fmt::print("Hello World!\n");
     try {
         PPM ppmInstance;
         savePPM("output.ppm", ppmInstance.imageData);
